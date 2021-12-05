@@ -36,7 +36,7 @@ def display_frames():
 	i = 0
 	while True:
 		os.system("clear")
-		if i >= len(frames)-1:
+		if i >= len(frames):
 			i = 0
 
 		for y in range(TROWS):
